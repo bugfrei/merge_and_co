@@ -4,7 +4,8 @@ for(var i = 0; i < 20; i++) {
     console.log(i);
 }
 
-function hello() {
-    console.log("Hello World!");
+function hello(i) {
+    console.log(`Number ${i}`);
 }
+
 
