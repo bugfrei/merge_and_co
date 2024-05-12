@@ -361,3 +361,9 @@ Keine Commit-Message -> Abbruch
 
 Anschließend `git rebase --abort` bzw. `git merge --abort` und das Rebase/Merge wurde abgebrochen.
 
+## Tipps & Tricks 3: Commit Messages ändern
+
+Wenn anstelle von `s` für Squash bein einem interaktiven Rebase ein `r` eingetragen wird, kann man auch einfach nur die Commit-Messages aller Commits die ein `r` haben ändern.
+
+Aber Vorsicht! Es ist ein Rebase, die History wird neu geschrieben!
+
